@@ -1,0 +1,2 @@
+jackson:
+    module-scan: false

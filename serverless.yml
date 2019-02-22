@@ -54,6 +54,8 @@ functions:
     handler: com.codependent.awslambda.PingLambda
     memorySize: 192
     timeout: 10s
+    events:
+      - http: ANY {proxy+}
 
 #    The following are a few example events you can configure
 #    NOTE: Please make sure to change your handler code to work with those events
